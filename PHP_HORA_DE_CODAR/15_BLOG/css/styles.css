@@ -228,7 +228,7 @@ footer{
         margin-top: 20px;
     }
 
-    #post-container{
+    #posts-container{
         margin-top: 20px;
     }
 
@@ -242,10 +242,11 @@ footer{
     #post-container{
         grid-template-columns: 100%;
         padding: 15px;
-        grid-template-areas: "main sidebar";
+        grid-template-areas: "main" 
+        "sidebar";
     }
 
-    .img-container{
+    .img-container img{
         width: 100%;
     }
 }
